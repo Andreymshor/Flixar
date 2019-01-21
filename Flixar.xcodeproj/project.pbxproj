@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5539E5A21F62A6A00D45D79 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5539E5921F62A6A00D45D79 /* AppDelegate.swift */; };
+		C5539E5C21F62A6A00D45D79 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5539E5B21F62A6A00D45D79 /* ViewController.swift */; };
+		C5539E5F21F62A6B00D45D79 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5539E5D21F62A6B00D45D79 /* Main.storyboard */; };
+		C5539E6121F62A7800D45D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5539E6021F62A7800D45D79 /* Assets.xcassets */; };
+		C5539E6421F62A7800D45D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5539E6221F62A7800D45D79 /* LaunchScreen.storyboard */; };
+		C5539E6F21F62A7900D45D79 /* FlixarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5539E6E21F62A7900D45D79 /* FlixarTests.swift */; };
+		C5539E7A21F62A7900D45D79 /* FlixarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5539E7921F62A7900D45D79 /* FlixarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5539E6B21F62A7900D45D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5539E4E21F62A6A00D45D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5539E5521F62A6A00D45D79;
+			remoteInfo = Flixar;
+		};
+		C5539E7621F62A7900D45D79 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5539E4E21F62A6A00D45D79 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5539E5521F62A6A00D45D79;
+			remoteInfo = Flixar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5539E5621F62A6A00D45D79 /* Flixar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flixar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5539E5921F62A6A00D45D79 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5539E5B21F62A6A00D45D79 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5539E5E21F62A6B00D45D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5539E6021F62A7800D45D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5539E6321F62A7800D45D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C5539E6521F62A7800D45D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5539E6A21F62A7900D45D79 /* FlixarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5539E6E21F62A7900D45D79 /* FlixarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixarTests.swift; sourceTree = "<group>"; };
+		C5539E7021F62A7900D45D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5539E7521F62A7900D45D79 /* FlixarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlixarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5539E7921F62A7900D45D79 /* FlixarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlixarUITests.swift; sourceTree = "<group>"; };
+		C5539E7B21F62A7900D45D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5539E5321F62A6A00D45D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5539E6721F62A7900D45D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5539E7221F62A7900D45D79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5539E4D21F62A6A00D45D79 = {
+			isa = PBXGroup;
+			children = (
+				C5539E5821F62A6A00D45D79 /* Flixar */,
+				C5539E6D21F62A7900D45D79 /* FlixarTests */,
+				C5539E7821F62A7900D45D79 /* FlixarUITests */,
+				C5539E5721F62A6A00D45D79 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5539E5721F62A6A00D45D79 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5539E5621F62A6A00D45D79 /* Flixar.app */,
+				C5539E6A21F62A7900D45D79 /* FlixarTests.xctest */,
+				C5539E7521F62A7900D45D79 /* FlixarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5539E5821F62A6A00D45D79 /* Flixar */ = {
+			isa = PBXGroup;
+			children = (
+				C5539E5921F62A6A00D45D79 /* AppDelegate.swift */,
+				C5539E5B21F62A6A00D45D79 /* ViewController.swift */,
+				C5539E5D21F62A6B00D45D79 /* Main.storyboard */,
+				C5539E6021F62A7800D45D79 /* Assets.xcassets */,
+				C5539E6221F62A7800D45D79 /* LaunchScreen.storyboard */,
+				C5539E6521F62A7800D45D79 /* Info.plist */,
+			);
+			path = Flixar;
+			sourceTree = "<group>";
+		};
+		C5539E6D21F62A7900D45D79 /* FlixarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5539E6E21F62A7900D45D79 /* FlixarTests.swift */,
+				C5539E7021F62A7900D45D79 /* Info.plist */,
+			);
+			path = FlixarTests;
+			sourceTree = "<group>";
+		};
+		C5539E7821F62A7900D45D79 /* FlixarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5539E7921F62A7900D45D79 /* FlixarUITests.swift */,
+				C5539E7B21F62A7900D45D79 /* Info.plist */,
+			);
+			path = FlixarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5539E5521F62A6A00D45D79 /* Flixar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5539E7E21F62A7900D45D79 /* Build configuration list for PBXNativeTarget "Flixar" */;
+			buildPhases = (
+				C5539E5221F62A6A00D45D79 /* Sources */,
+				C5539E5321F62A6A00D45D79 /* Frameworks */,
+				C5539E5421F62A6A00D45D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Flixar;
+			productName = Flixar;
+			productReference = C5539E5621F62A6A00D45D79 /* Flixar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5539E6921F62A7900D45D79 /* FlixarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5539E8121F62A7900D45D79 /* Build configuration list for PBXNativeTarget "FlixarTests" */;
+			buildPhases = (
+				C5539E6621F62A7900D45D79 /* Sources */,
+				C5539E6721F62A7900D45D79 /* Frameworks */,
+				C5539E6821F62A7900D45D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5539E6C21F62A7900D45D79 /* PBXTargetDependency */,
+			);
+			name = FlixarTests;
+			productName = FlixarTests;
+			productReference = C5539E6A21F62A7900D45D79 /* FlixarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5539E7421F62A7900D45D79 /* FlixarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5539E8421F62A7900D45D79 /* Build configuration list for PBXNativeTarget "FlixarUITests" */;
+			buildPhases = (
+				C5539E7121F62A7900D45D79 /* Sources */,
+				C5539E7221F62A7900D45D79 /* Frameworks */,
+				C5539E7321F62A7900D45D79 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5539E7721F62A7900D45D79 /* PBXTargetDependency */,
+			);
+			name = FlixarUITests;
+			productName = FlixarUITests;
+			productReference = C5539E7521F62A7900D45D79 /* FlixarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5539E4E21F62A6A00D45D79 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Andrey Shor";
+				TargetAttributes = {
+					C5539E5521F62A6A00D45D79 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C5539E6921F62A7900D45D79 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5539E5521F62A6A00D45D79;
+					};
+					C5539E7421F62A7900D45D79 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5539E5521F62A6A00D45D79;
+					};
+				};
+			};
+			buildConfigurationList = C5539E5121F62A6A00D45D79 /* Build configuration list for PBXProject "Flixar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5539E4D21F62A6A00D45D79;
+			productRefGroup = C5539E5721F62A6A00D45D79 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5539E5521F62A6A00D45D79 /* Flixar */,
+				C5539E6921F62A7900D45D79 /* FlixarTests */,
+				C5539E7421F62A7900D45D79 /* FlixarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5539E5421F62A6A00D45D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5539E6421F62A7800D45D79 /* LaunchScreen.storyboard in Resources */,
+				C5539E6121F62A7800D45D79 /* Assets.xcassets in Resources */,
+				C5539E5F21F62A6B00D45D79 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5539E6821F62A7900D45D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5539E7321F62A7900D45D79 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5539E5221F62A6A00D45D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5539E5C21F62A6A00D45D79 /* ViewController.swift in Sources */,
+				C5539E5A21F62A6A00D45D79 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5539E6621F62A7900D45D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5539E6F21F62A7900D45D79 /* FlixarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5539E7121F62A7900D45D79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5539E7A21F62A7900D45D79 /* FlixarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5539E6C21F62A7900D45D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5539E5521F62A6A00D45D79 /* Flixar */;
+			targetProxy = C5539E6B21F62A7900D45D79 /* PBXContainerItemProxy */;
+		};
+		C5539E7721F62A7900D45D79 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5539E5521F62A6A00D45D79 /* Flixar */;
+			targetProxy = C5539E7621F62A7900D45D79 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5539E5D21F62A6B00D45D79 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5539E5E21F62A6B00D45D79 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C5539E6221F62A7800D45D79 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5539E6321F62A7800D45D79 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5539E7C21F62A7900D45D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5539E7D21F62A7900D45D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C5539E7F21F62A7900D45D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flixar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs490.Flixar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C5539E8021F62A7900D45D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Flixar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs490.Flixar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C5539E8221F62A7900D45D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlixarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs490.FlixarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flixar.app/Flixar";
+			};
+			name = Debug;
+		};
+		C5539E8321F62A7900D45D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlixarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs490.FlixarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Flixar.app/Flixar";
+			};
+			name = Release;
+		};
+		C5539E8521F62A7900D45D79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlixarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs490.FlixarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flixar;
+			};
+			name = Debug;
+		};
+		C5539E8621F62A7900D45D79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FlixarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cs490.FlixarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Flixar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5539E5121F62A6A00D45D79 /* Build configuration list for PBXProject "Flixar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5539E7C21F62A7900D45D79 /* Debug */,
+				C5539E7D21F62A7900D45D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5539E7E21F62A7900D45D79 /* Build configuration list for PBXNativeTarget "Flixar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5539E7F21F62A7900D45D79 /* Debug */,
+				C5539E8021F62A7900D45D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5539E8121F62A7900D45D79 /* Build configuration list for PBXNativeTarget "FlixarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5539E8221F62A7900D45D79 /* Debug */,
+				C5539E8321F62A7900D45D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5539E8421F62A7900D45D79 /* Build configuration list for PBXNativeTarget "FlixarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5539E8521F62A7900D45D79 /* Debug */,
+				C5539E8621F62A7900D45D79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5539E4E21F62A6A00D45D79 /* Project object */;
+}
